@@ -7,4 +7,4 @@ public class TankFollower : MonoBehaviour {
     private void LateUpdate() {
         transform.position = tank.transform.position + offset;
     }
-} 
+}
